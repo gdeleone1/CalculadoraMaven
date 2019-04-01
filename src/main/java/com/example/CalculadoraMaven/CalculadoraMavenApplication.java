@@ -23,7 +23,7 @@ public class CalculadoraMavenApplication {
             ModelMap model) {
         
 
-        /*** SELECCIONAS LA PAGINA QUE QUIERAS MOSTRAR ***/
+     
         model.addAttribute("datos", "Estos son datos!!!");
         return  parametro+parametro1;
     }
@@ -34,7 +34,7 @@ public class CalculadoraMavenApplication {
             ModelMap model) {
         
 
-        /*** SELECCIONAS LA PAGINA QUE QUIERAS MOSTRAR ***/
+      
         model.addAttribute("datos", "Estos son datos!!!");
         return  parametro-parametro1;
     }
@@ -45,7 +45,6 @@ public class CalculadoraMavenApplication {
             ModelMap model) {
         
 
-        /*** SELECCIONAS LA PAGINA QUE QUIERAS MOSTRAR ***/
         model.addAttribute("datos", "Estos son datos!!!");
         return  parametro*parametro1;
     }
@@ -56,7 +55,7 @@ public class CalculadoraMavenApplication {
             ModelMap model) {
         
 
-        /*** SELECCIONAS LA PAGINA QUE QUIERAS MOSTRAR ***/
+     
         model.addAttribute("datos", "Estos son datos!!!");
         return  parametro/parametro1;
     }
@@ -68,7 +67,7 @@ public class CalculadoraMavenApplication {
             ModelMap model) {
         
 
-        /*** SELECCIONAS LA PAGINA QUE QUIERAS MOSTRAR ***/
+      
         model.addAttribute("datos", "Estos son datos!!!");
         return  Math.sqrt(parametro);
     }
